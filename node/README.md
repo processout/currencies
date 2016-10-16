@@ -18,6 +18,7 @@ Package for iso currencies, supports multiple languages
   console.log(dirham.places) // Number of decimal places for currency
   console.log(dirham.name) // Official name of currency
   console.log(dirham.countries) // Countries that use the currency
+  console.log(dirham.symbol) // UTF-8 symbol (may be more then 1 character)
 
   console.log(currencies.isValid("aed")) // Whether the currency code is valid
 ```
